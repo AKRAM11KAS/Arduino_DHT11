@@ -6,7 +6,7 @@
 #define DHTTYPE DHT11
 const char* ssid = "#votre ssid";
 const char* password = "#votre password";
-const char* serverName =  "#http://#votre adrrese ip:8000/api/post";
+const char* serverName =  "#votre servername";
 #define dht_dpin 5
 DHT dht(dht_dpin, DHTTYPE);
 
