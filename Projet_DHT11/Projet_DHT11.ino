@@ -4,12 +4,9 @@
 #include <ArduinoJson.h>
 
 #define DHTTYPE DHT11
-const char* ssid = "ZTE_MT";
-const char* password = "GzekrDEs";
-const char* serverName =  "http://192.168.1.6:8000/api/post";
-//const char* serverName = "http://akram11ilyass.pythonanywhere.com/api/post";
-//const char* ssid = "ZTE_MT"//"Redmi";
-//const char* password = "GzekrDEs"//"1234554321";
+const char* ssid = "#votre ssid";
+const char* password = "#votre password";
+const char* serverName =  "#http://#votre adrrese ip:8000/api/post";
 #define dht_dpin 5
 DHT dht(dht_dpin, DHTTYPE);
 
